@@ -32,10 +32,10 @@ app = FastAPI(
     title="Trade Opportunities API",
     description=(
         "Market analysis for Indian sectors using Groq + DuckDuckGo.\n\n"
-        "## 🔑 Sample API Key\n\n"
+        "##  Sample API Key\n\n"
         "Use this key in the **X-API-Key** header:\n\n"
         "`secret123`\n\n"
-        "## 📋 Valid Sectors\n\n"
+        "##  Valid Sectors\n\n"
         + "\n".join(f"- `{s}`" for s in VALID_SECTORS)
     ),
     version="1.0.0"
